@@ -1,0 +1,20 @@
+.detalles {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.detalles-contenedor {
+    margin-top: 80px;
+}
+
+
+.detalles-contenedor .texto {
+    margin-left: 170px;
+}
+
+.imagen-detalle img {
+    width: 500px;
+    height: 350px;
+}
